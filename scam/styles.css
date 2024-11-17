@@ -1,0 +1,87 @@
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #808080; /* Gray background */
+    color: #fff; /* White text for contrast */
+}
+
+h1, p {
+    text-align: center;
+    margin: 0px 0; /* Reduce top and bottom spacing */
+}
+
+/* Top bar styles */
+.top-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000; /* Black top bar */
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.logo img {
+    height: 40px; /* Adjust logo height */
+}
+
+.navigation button {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.navigation button:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* Content styles */
+.content {
+    padding: 20px;
+}
+
+/* Clickable image styling */
+.clickable-image img {
+    width: 300px; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s, opacity 0.3s; /* Smooth hover effect */
+}
+
+.clickable-image img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    opacity: 0.9; /* Subtle transparency */
+}
+
+/* Style the horizontal line */
+.custom-line {
+    border: none; /* Remove the default border */
+    height: 2px; /* Thickness of the line */
+    background-color: white; /* White color */
+    margin: 20px 0; /* Spacing above and below the line */
+    width: 80%; /* Line width (adjust as needed) */
+}
+
+
+
+
+
+
+
+/* NITRO TEAM YOUTUBE LOGO */
+.clickable-image2 img {
+    width: 80px; /* Adjust width */
+    height: auto; /* Maintain aspect ratio */
+    transition: transform 0.3s, opacity 0.3s; /* Smooth hover effect */
+}
+
+.clickable-image2 img:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    opacity: 0.9; /* Subtle transparency */
+}
