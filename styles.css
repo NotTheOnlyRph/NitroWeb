@@ -1,7 +1,15 @@
 /* General styles */
+
+@font-face {
+        font-family: Ubuntu;
+        src: url('https://github.com/NotTheOnlyRph/NitroWeb/blob/c81ccac5dbe52c6c6e46c167a6ea65dfa149c152/Font.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+    }
+
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Ubuntu, sans-serif;
     background-color: #808080; /* Gray background */
     color: #fff; /* White text for contrast */
 }
